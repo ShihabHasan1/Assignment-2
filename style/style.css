@@ -502,6 +502,77 @@ td {
     color: #ffffff48;
 }
 
+/* Footer style start */
+
+.fitness{
+    background-color: rgb(34, 34, 34);
+    height: 489px;
+}
+.fitness-container{
+    max-width: 1060px;
+    margin: 0 auto;
+    display: flex;
+    gap: 102px;
+    
+}
+.fit{
+    width: 443px;
+    margin-top: 66px;
+}
+
+.fit h1{
+    font-size: 70px;
+    font-weight: 900;
+    color: #E6533C;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+.fit p{
+    font-size: 14px;
+    font-weight: 400;
+    color:#ffffff48;
+}
+.get h3{
+    font-size: 32px;
+    font-weight: 800;
+    color: #fff;
+    margin-top: 66px;
+    margin-bottom: 39px;
+}
+.get p{
+    font-size: 23px;
+    font-weight: 400;
+    color: #ffffff48;
+    margin-bottom: 20px;
+}
+
+.start h3{
+    font-size: 32px;
+    font-weight: 800;
+    color: #fff;
+    margin-top: 66px;
+    margin-bottom: 39px;
+}
+.start p{
+    font-size: 23px;
+    font-weight: 400;
+    color: #ffffff48;
+    margin-bottom: 20px;
+}
+hr{
+    width: 1060px;
+    margin: 0 auto;
+    margin-top: 79px;
+    border: 1px solid #ffffff48;
+}
+.cradit{
+    text-align: center;
+    margin-top: 36px;
+    margin-bottom: 36px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #ffffff48;
+}
 /* responsive part */
 
 @media screen and (max-width: 576px) {
