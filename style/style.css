@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,57 +6,61 @@
 
 
 .inter-normal {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
 }
 
 
 
 .merriweather-sans-normal {
-  font-family: "Merriweather Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
+    font-family: "Merriweather Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
 }
 
 /* Nav Styles Start */
 
-.nav-container{
-   background-color: black;
-    padding: 46px; 
+.nav-container {
+    background-color: black;
+    padding: 46px;
 }
-.nav-content{
+
+.nav-content {
     max-width: 1060px;
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
-    
+
 }
 
-.nav-title{
+.nav-title {
     font-size: 36px;
     font-weight: bolder;
     font-style: italic;
     color: #E6533C;
 }
-.nav-icon{
+
+.nav-icon {
     color: black;
     height: 24px;
     width: 24px;
     display: flex;
-    
-   
+
+
 }
-.nav-menu{
+
+.nav-menu {
     display: flex;
     justify-content: center;
     border: 1px solid #e6533c41;
     border-radius: 39px;
     gap: 47px;
 }
-.nav-btn1{
+
+.nav-btn1 {
     font-size: 16px;
     font-weight: 600;
     color: #ffffff;
@@ -66,7 +70,8 @@
     border: none;
     margin: 3px;
 }
-.nav-btn2{
+
+.nav-btn2 {
     font-size: 16px;
     font-weight: 600;
     color: #ffffff;
@@ -77,34 +82,39 @@
 }
 
 /* banner Style start */
-.banner-container{
+.banner-container {
     background-color: black;
 }
 
-.banner-content{
+.banner-content {
     max-width: 1060px;
     margin: 0 auto;
     display: flex;
     gap: 88px;
 }
-.banner-left{
+
+.banner-left {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
+
 }
-.banner-title{
+
+.banner-title {
     color: #ffffff;
-     font-size: 78px; 
+    font-size: 78px;
     font-weight: 600;
 }
-.shape{
+
+.shape {
     font-style: italic;
 }
-.banner-btn{
+
+.banner-btn {
     margin-top: 28px;
 }
-.banner-btn1{
+
+.banner-btn1 {
     background-color: #E6533C;
     padding: 16px 46px;
     font-size: 18px;
@@ -114,7 +124,14 @@
     border: none;
     margin-right: 14px;
 }
-.banner-btn2{
+
+.banner-btn1:hover {
+    background: white;
+    color: #E6533C;
+    transition: 0.8s;
+}
+
+.banner-btn2 {
     background-color: black;
     padding: 16px 46px;
     font-size: 18px;
@@ -123,7 +140,8 @@
     border-radius: 42px;
     border: 1px solid #ffffffbb;
 }
-.banner-description{
+
+.banner-description {
     font-size: 16px;
     font-weight: 400;
     color: #ffffff48;
@@ -131,99 +149,117 @@
     width: 520px;
 }
 
-.banner-right{
+.banner-right {
     width: 50%;
     position: relative;
 }
-.banner-right img{
+
+.banner-right img {
     width: 100%;
 }
-.banner-right-btn1{
+
+.banner-right-btn1 {
     position: absolute;
     padding: 5px 10px;
     left: 294px;
     bottom: 464px;
-    border-radius: 20px;
+    border-radius: 12px;
     background-color: rgba(189, 167, 167, 0.267);
     width: 172px;
     border: none;
     text-align: left;
+
 }
 
 
-.banner-right-btn2{
+.banner-right-btn2 {
     position: absolute;
     padding: 5px 0;
-    left: -167px;
-    bottom: 43px;
-    border-radius: 20px;
+    left: -80px;
+    bottom: 119px;
+    border-radius: 12px;
     background-color: rgba(189, 167, 167, 0.267);
-    width: 190px;
+    width: 206px;
     display: flex;
     gap: 2px;
 
 }
-.round{
+
+.size {
+    font-size: 24px;
+}
+
+.round {
     width: 40px;
     height: 40px;
     border-radius: 50%;
     background-color: #E6533C;
-   margin: 15px 10px;
+    margin: 25px 10px;
 }
 
-.banner-right-hedding1{
+.banner-right-hedding1 {
     font-size: 24px;
     font-weight: 700;
     color: #fff;
     display: block;
+    font-size: 40px;
 }
-.banner-right-hedding2{
+
+.banner-right-hedding2 {
     color: #fff;
 }
 
 /* Habit style start */
 
-.habit{
+.habit {
     background-color: black;
-    
+
 }
-.habit-container{
+
+.habit-container {
     max-width: 1060px;
     margin: 0 auto;
     padding-top: 100px;
-    
+
 }
-.habit-content-heading{
+
+.habit-content-heading {
     text-align: center;
 }
-.habit-content-heading h2{
+
+.habit-content-heading h2 {
     font-size: 48px;
     font-weight: 700;
     color: #fff;
 }
-.habit-content-heading p{
+
+.habit-content-heading p {
     font-size: 14px;
     font-weight: 400;
     color: #ffffff48;
     margin-top: 14px;
     margin-bottom: 58px;
 }
-.habit-contant{
+
+.habit-contant {
     display: flex;
     text-align: center;
     gap: 40px;
 }
-.habit-contant img{
+
+.habit-contant img {
     border-radius: 50%;
     margin-bottom: 30px;
 }
-.habit-contant h4{
+
+.habit-contant h4 {
     font-size: 18px;
     font-weight: 600;
     color: #fff;
     margin-bottom: 6px;
 }
-.habit-contant p{
+
+.habit-contant p {
     font-size: 14px;
     font-weight: 400;
     color: #ffffff48;
@@ -232,11 +268,12 @@
 
 /* Run style start */
 
-.run{
+.run {
     background-color: black;
     padding-bottom: 100px;
 }
-.run-container{
+
+.run-container {
     max-width: 1060px;
     margin: 0 auto;
     display: flex;
@@ -244,108 +281,139 @@
     gap: 165px;
     border-radius: 18px;
 }
-.run-left{
+
+.run-left {
     padding: 40px 54px;
 }
-.run-left h2{
+
+.run-left h2 {
     font-size: 48px;
     font-weight: 700;
     color: #fff;
 }
-.run-left p{
+
+.run-left p {
     font-size: 14px;
     font-weight: 400;
     color: #ffffff48;
     margin-top: 14px;
     margin-bottom: 34px;
 }
-.run-right img{
+
+.run-right img {
     width: 366px;
     height: 312px;
     border-radius: 18px;
     margin: 30px 32px;
-    
+
 }
 
 /* bmi calculator style start */
 
-.bmi{
+.bmi {
     background-color: black;
 }
-.bmi-title{
+
+.bmi-title {
     width: 671px;
     margin: 0 auto;
 
 }
-.bmi-title h2{
+
+.bmi-title h2 {
     font-size: 48px;
     font-weight: 700;
     color: #fff;
     margin-bottom: 14px;
 }
-.bmi-title p{
+
+.bmi-title p {
     font-size: 14px;
     font-weight: 400;
     color: #ffffff48;
     padding-bottom: 100px;
 }
 
-.bmi-calculator{
+.bmi-calculator {
     background-color: rgb(34, 34, 34);
     padding-bottom: 52px;
 
 }
-.bmi-calculator-container{
+
+.bmi-calculator-container {
     max-width: 1060px;
     margin: 0 auto;
     display: flex;
     gap: 175px;
 }
-.bmi-calculator-left{
+
+.bmi-calculator-left {
     margin-top: 52px;
 }
-.bmi-calculator-left h3{
+
+.bmi-calculator-left h3 {
     font-size: 28px;
     font-weight: 600;
     color: #fff;
     margin-bottom: 52px;
 
 }
-.bmi-calculator-left table{
+
+.bmi-calculator-left table {
     width: 310px;
-    
+
 }
-.bmi-calculator-left table, th,td{
+
+.bmi-calculator-left table,
+th,
+td {
     border: 1px solid #ffffff0d;
     border-collapse: collapse;
     color: #ffffff48;
     padding: 15px 15px;
 }
-.bmi-calculator-left table th{
+
+.bmi-calculator-left table th {
     text-align: left;
     color: #fff;
 }
-.bmi-calculator-right{
+
+.bmi-calculator-right {
     margin-top: 52px;
 }
-.bmi-calculator-right h3{
+
+.bmi-calculator-right h3 {
     font-size: 28px;
     font-weight: 600;
     color: #fff;
     margin-bottom: 14px;
 }
-.bmi-calculator-right p{
+
+.bmi-calculator-right p {
     font-size: 14px;
     font-weight: 400;
     color: #ffffff48;
     margin-bottom: 34px;
 }
-.form{
+
+.form {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 12px;
 }
-.form input{
+
+.form-1 input {
+    background-color: rgb(80 59 59);
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 13px 20px;
+    margin-top: 12px;
+    width: 575px;
+}
+
+.form input {
     background-color: rgb(80 59 59);
     border-radius: 8px;
     border: none;
@@ -355,61 +423,93 @@
 
 }
 
-.calculate-btn{
+.calculate-btn {
     margin-top: 34px;
 }
 
 /* Team style start */
-.team{
+.team {
     background-color: black;
 }
-.team-title{
+
+.team-title {
     width: 671px;
     margin: 0 auto;
     padding-top: 88px;
     text-align: center;
 }
-.team-title h2{
+
+.team-title h2 {
     font-size: 48px;
     font-weight: 700;
     color: #fff;
     margin-bottom: 14px;
 }
 
-.team-title p{
+.team-title p {
     font-size: 14px;
     font-weight: 400;
     color: #ffffff48;
     padding-bottom: 58px;
 }
 
-.meet{
+
+/* meet image section */
+.meet {
     background-color: black;
+    padding-bottom: 88px;
 }
-.meet-container{
+
+.meet-container {
     max-width: 1060px;
     background-color: rgb(34, 34, 34);
     margin: 0 auto;
     border-radius: 18px;
+    padding-bottom: 20px;
 }
-.meet-image{
-    display: grid;
-    grid-template-columns: repeat( 3, 1fr);
+
+.meet-image1 {
+    display: flex;
     gap: 20px;
-    padding: 20px;
-}
-.meet-image img{
+    padding: 20px 20px 0 20px;
     width: 100%;
-    height: 272px;
+}
+
+.meet-image1 img {
+    width: 326.67px;
+    height: 310px;
     border-radius: 18px;
 }
+
+.meet-image {
+    position: relative;
+}
+
+.meet-image-title {
+    position: absolute;
+    left: 28px;
+    bottom: 35px;
+    color: white;
+}
+.meet-image-title h4{
+    font-size: 20px;
+    font-weight: 600;
+
+}
+.meet-image-title p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff48;
+}
+
 /* responsive part */
 
 @media screen and (max-width: 576px) {
-    .nav-menu{
-       display: none;
+    .nav-menu {
+        display: none;
     }
-    .nav-icon{
+
+    .nav-icon {
         color: white;
         justify-content: center;
         margin-top: 25px;
