@@ -4,7 +4,9 @@
     box-sizing: border-box;
 }
 
-
+.hidden{
+    display: none;
+}
 .inter-normal {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -108,6 +110,8 @@
 
 .shape {
     font-style: italic;
+    font-family: miama;
+    font-weight: 400;
 }
 
 .banner-btn {
@@ -573,6 +577,11 @@ hr{
     font-weight: 400;
     color: #ffffff48;
 }
+
+
+
+
+
 /* responsive part */
 
 @media screen and (max-width: 576px) {
@@ -584,5 +593,45 @@ hr{
         color: white;
         justify-content: center;
         margin-top: 25px;
+    }
+    
+    .banner-title{
+        width: 285px;
+        font-size: 36px;
+        margin-left: 46px;
+        
+    }
+    .banner-description{
+        width: 274px;
+        font-size: 16px;
+        margin-left: 46px;
+    }
+    .banner-btn{
+        /* display: flex; */
+        margin-left: 46px;
+    }
+    .banner-btn1{
+        width: 178px;
+        font-size: 18px;
+        font-weight: 600;
+        height: 54px;
+    }
+    .club{
+        display: none;
+    }
+    .banner-btn2{
+        width: 178px;
+        font-size: 18px;
+        font-weight: 600;
+        height: 54px;
+    }
+    .banner-content{
+        flex-direction: column;
+    } 
+    .banner-right img{
+        margin-left: 46px;
+        /* width: 353px; */
+        /* height: 588px;  */
+        
     }
 }
